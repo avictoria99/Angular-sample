@@ -1,3 +1,12 @@
-<p>
-  sony works!
-</p>
+<br>
+<div class="square align-content-center">
+    <div class="row">
+        <div *ngFor="let button of buttons" class="col-4">
+            <a name="" id="" class="btn rounded-circle" (click)="onClick(button.api_link)" role="button">
+                <i class="fa {{button.button}}"></i>
+            </a>
+        </div>
+    </div>
+
+</div>
+<!-- /.row -->

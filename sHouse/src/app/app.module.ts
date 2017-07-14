@@ -23,8 +23,8 @@ import { LgComponent } from './lg/lg.component';
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-    {path:'sony', component: SonyComponent},
-    {path:'lg', component: LgComponent}
+    {path: 'sony', component: SonyComponent},
+    {path: 'lg', component: LgComponent}
 
     ])
   ],
